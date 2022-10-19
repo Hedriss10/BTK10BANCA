@@ -14,7 +14,9 @@
   <link href="assets/img/logo-btk10banca.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,10 +53,10 @@
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
               <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-              <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
-              <li><a class="nav-link scrollto" href="#services">Eventos</a></li>
-              <li><a class="nav-link scrollto " href="#portfolio">Loja</a></li>
+              <li><a class="nav-link scrollto" href="#portfolio">Loja</a></li>
               <li><a class="nav-link scrollto" href="#pricing">Produtos</a></li>
+              <li><a class="nav-link scrollto " href="#services">Eventos</a></li>
+              <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
 
               <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
             </ul>
@@ -89,37 +91,199 @@
 
   <main id="main">
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
+    <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title">
-          <h2>É o RAP/TRAP-BTK10BANCA</h2>
-          <p id="graph-btk"><b>Há 3 anos a BTK10Banca fez o seu primeiro lançamento nas plataformas de streaming, hoje já são mais de 3 milhões de streaming em suas plataformas No seu primeiro ano de atividade foram lançadas mais de vinte e oito faixas incluindo um álbum (Poesia Marginal) com o lançamento em todas as plataformas de streaming, com 999% positivo no Spotify e com várias músicas tocadas nas rádios do DF, 90% do público da BTK10Banca é constituído por jovens entre 15 e 26 anos, um público consumidor, ativo socialmente e bastante prestativo nas redes sociais.<b></p>
+          <h2>Loja da BTK</h2>
+          <p id="graph-btk">Produtos no estoque</p>
         </div>
 
-        <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              Principais plataformas
-            </p>
-            <ul>
-              <li><i class="bi-spotify"></i> <a href="https://open.spotify.com/artist/0BncUYiVAqLsv0P9ENiYVi?autoplay=true">Ouvir em Spotify.</a></li>
-              <li><i class="bi-youtube"></i><a href="https://www.youtube.com/channel/UCV5zyzG6P02zEWm4dtgd-Nw">Acompanha nossos lançamentos de clipes no YouTube.</a></li>
-              <li><i class="bi-apple"></i><a href="https://music.apple.com/br/artist/btk10banca/1486244068">Não se esqueça do Apple-Music.</a></li>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-app">Drop - 01</li>
+              <li data-filter=".filter-web">Drop - 02</li>
             </ul>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <h2>Cultura Musical</h2>
-            <p id="graph-btk">
-              Musicalmente o selo BTK 10Banca apresenta influências do rap,hip hop e trap, Sendo comercial levando originalidade e tendo aceitação na grande massa. No show com o repertório bastante energético com trap ,boom bap e e suas linhas bastante reflexivas chamam o público para cima fazendo uma apresentação bastante empolgante, energética e única na vida de cada um. Atualmente o selo BTK10Banca trabalha na criação e desenvolvimento de projetos que compartilhem do seu conceito de união e de seus valores de solidariedade, amor, paz, respeito e muita força de vontade.
-            </p>
-            <a href="https://www.instagram.com/btk10banca/" class="btn-learn-more">Saiba mais</a>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/drop010101.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Drop - 01</h4>
+              <p>Disponível no estoque</p>
+              <a href="assets/img/drop010101.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Disponível no estoque"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                  class="bx bx-cart-add"></i></a>
+            </div>
           </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/drop0101.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Drop - 02</h4>
+              <p>Em breve no estoque</p>
+              <a href="assets/img/drop0101.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Em breve no estoque"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/drop01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Drop - 02</h4>
+              <p>Em breve no estoque</p>
+              <a href="assets/img/drop01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+                title="Em breve no estoque"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                  class="bx bx-cart-add"></i></a>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/drop0101.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Drop - 02</h4>
+              <p>Em breve no estoque</p>
+              <a href="assets/img/drop0101.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+                title="Em breve no estoque"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                  class="bx bx-cart-add"></i></a>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section><!-- End Portfolio Section -->
+
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Promoção de produto</h2>
+          <p>A drop 01 na promoção, verifique as credencias e aproveite e faça sua compra</p>
+        </div>
+
+        <div class="row">
+          <!-- 
+              <div class="col-lg-4 col-md-6">
+                <div class="box">
+                  <h3>Free</h3>
+                  <h4><sup>$</sup>0<span> / month</span></h4>
+                  <ul>
+                    <li>Aida dere</li>
+                    <li>Nec feugiat nisl</li>
+                    <li>Nulla at volutpat dola</li>
+                    <li class="na">Pharetra massa</li>
+                    <li class="na">Massa ultricies mi</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">Buy Now</a>
+                  </div>
+                </div>
+              </div> -->
+
+          <center>
+            <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+              <div class="box recommended">
+                <span class="recommended-badge">Promoção</span>
+                <h3>Drop 01</h3>
+                <h4><sup>R$</sup>70<span> </span></h4>
+                <ul>
+                  <li><i class="ri-t-shirt-air-fill"></i> Cor preta</li>
+                  <li>Emblema da BTK10BANCA</li>
+                  <li>Poucas peças</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="portfolio-details.html" class="btn-buy">Compra</a>
+                </div>
+              </div>
+            </div>
+            <center>
+
+              <!-- <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                <div class="box">
+                  <h3>Developer</h3>
+                  <h4><sup>$</sup>29<span> / month</span></h4>
+                  <ul>
+                    <li>Aida dere</li>
+                    <li>Nec feugiat nisl</li>
+                    <li>Nulla at volutpat dola</li>
+                    <li>Pharetra massa</li>
+                    <li>Massa ultricies mi</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">Buy Now</a>
+                  </div>
+                </div>
+              </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -127,7 +291,8 @@
 
         <div class="section-title">
           <h2>Shows</h2>
-          <p>O selo BTK10Banca representa união. Sabemos que sozinhos chegamos mais rápido, porém Juntos chegaremos mais longe.
+          <p>O selo BTK10Banca representa união. Sabemos que sozinhos chegamos mais rápido, porém Juntos chegaremos mais
+            longe.
           </p>
         </div>
 
@@ -181,7 +346,7 @@
                 <p><i class="bi-calendar-check"> Ano 2019</i></p>
               </div>
             </div>
-  
+
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <div class="icon-box">
                 <div class="card" style="width: 18rem;">
@@ -190,24 +355,24 @@
                 <hr>
                 <h4><a href="">Show campeonato brasileiro de som e rebaixado</a></h4>
                 <p><i class="bi-pin-map"> Sobradinho DF</i></p>
-                <p><i class="bi-car-front"> Autódromo internacional <b>Nelson Piquet</b>    </i></p>
+                <p><i class="bi-car-front"> Autódromo internacional <b>Nelson Piquet</b> </i></p>
                 <p><i class="bi-calendar-check"> Ano 2019</i></p>
               </div>
             </div>
-  
+
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
               <div class="icon-box">
                 <div class="card" style="width: 18rem;">
-                  <img src="/assets/img/evento-rap-solidario.jpeg" alt="img-rap-envento-solidario" class="card-img-top">
+                  <img src="/assets/img/evento-solidario0001.png" alt="img-rap-envento-solidario" class="card-img-top">
                 </div>
                 <hr>
-                <h4><a href=""> Evento Rap Solidário</a></h4>
-                <p><i class="bi-pin-map"> Sobradinho 2 DF</i></p>
-                <p><i class="bi-calendar-range"> Realização BTK10BANCA <b>GDF<b></i></p>
-                <p><i class="bi-calendar-check"> Ano 2019</i></p>
+                <h4><a href=""> Shows </a></h4>
+                <p><i class="bi-pin-map"> Registros em geral</i></p>
+                <p><i class="bi-calendar-range"> Em diversas casas de shows</i></p>
+                <p><i class="bi-calendar-check"> Ano 2019 á 2022</i></p>
               </div>
             </div>
-      </div>
+          </div>
     </section><!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
@@ -220,7 +385,8 @@
             <p> </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="https://www.youtube.com/channel/UCV5zyzG6P02zEWm4dtgd-Nw">Verificar</a>
+            <a class="cta-btn align-middle"
+              href="https://www.youtube.com/channel/UCV5zyzG6P02zEWm4dtgd-Nw">Verificar</a>
           </div>
         </div>
 
@@ -236,7 +402,9 @@
             <div class="icon-box mt-5 mt-lg-0">
               <i class="bx bx-music"></i>
               <h4>BTK10BANCA</h4>
-              <p id="graph-btk">Á gravadora já atingiu 3 milhões de streaming em suas plataformas digitais, sempre trazendo o melhor desempenho no hip-hop, e gerando oportunidades. Hoje contamos com time de cinco artistas e gerando cultura pela cidades.</p>
+              <p id="graph-btk">Á gravadora já atingiu 3 milhões de streaming em suas plataformas digitais, sempre
+                trazendo o melhor desempenho no hip-hop, e gerando oportunidades. Hoje contamos com time de cinco
+                artistas e gerando cultura pela cidades.</p>
             </div>
             <div class="icon-box mt-5">
             </div>
@@ -245,7 +413,8 @@
             <div class="icon-box mt-5">
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/logo-btk10banca.png");'></div>
+          <div class="image col-lg-6 order-1 order-lg-2"
+            style='background-image: url("assets/img/logo-btk10banca.png");'></div>
         </div>
 
       </div>
@@ -259,28 +428,29 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/stream1.jpg" class="img-fluid" alt="">
+              <a href="https://www.instagram.com/btk10banca/"><img src="assets/img/insta.png" class="img-fluid" alt=""></a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/stream2.jpg" class="img-fluid" alt="">
+              <a href="https://www.youtube.com/channel/UCV5zyzG6P02zEWm4dtgd-Nw"><img src="assets/img/youtube.png" class="img-fluid" alt=""></a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/stream3.jpg" class="img-fluid" alt="">
+              <a href="https://open.spotify.com/artist/0BncUYiVAqLsv0P9ENiYVi?autoplay=true"><img src="assets/img/spotify.png" class="img-fluid" alt=""></a>
             </div>
           </div>
 
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/stream4.jpg" class="img-fluid" alt="">
+              <a href="https://music.apple.com/br/artist/btk10banca/1486244068"><img src="assets/img/apple-music.png" class="img-fluid" alt=""></a>
             </div>
           </div>
-        </div>
+
 
       </div>
     </section><!-- End Clients Section -->
@@ -295,21 +465,24 @@
 
         <div class="row counters position-relative">
 
-          <center><div class="col-lg-3 col-6 text-center">
-            <p class="icon-box"><i class="bi-music-note"></i> Streaming <br> Mais </p>
-            <span data-purecounter-start="0" data-purecounter-end="3000000" data-purecounter-duration="1" class="purecounter"></span><p>Milhões...</p>
-          </div><center>
+          <center>
+            <div class="col-lg-3 col-6 text-center">
+              <p class="icon-box"><i class="bi-music-note"></i> Streaming <br> Mais </p>
+              <span data-purecounter-start="0" data-purecounter-end="3000000" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Milhões...</p>
+            </div>
+            <center>
 
-          <!-- <div class="col-lg-3 col-6 text-center">
+              <!-- <div class="col-lg-3 col-6 text-center">
             <p class="icon-box"><i class="bi-youtube"></i> YouTube <br> Visualização</p>
             <span data-purecounter-start="0" data-purecounter-end="130881" data-purecounter-duration="1" class="purecounter"></span>
           </div> -->
 
-          <!-- <div class="col-lg-3 col-6 text-center">
+              <!-- <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
             <p>Hours Of Support</p>
           </div>
-
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
             <p>Hard Workers</p>
@@ -320,186 +493,50 @@
       </div>
     </section><!-- End Counts Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+
+    <section id="about" class="about">
       <div class="container">
 
         <div class="section-title">
-          <h2>Loja da BTK</h2>
-          <p id="graph-btk">Produtos no estoque</p>
+          <h2>É o RAP/TRAP-BTK10BANCA</h2>
+          <p id="graph-btk"><b>Há 3 anos a BTK10Banca fez o seu primeiro lançamento nas plataformas de streaming, hoje
+              já são mais de 3 milhões de streaming em suas plataformas No seu primeiro ano de atividade foram lançadas
+              mais de vinte e oito faixas incluindo um álbum (Poesia Marginal) com o lançamento em todas as plataformas
+              de streaming, com 999% positivo no Spotify e com várias músicas tocadas nas rádios do DF, 90% do público
+              da BTK10Banca é constituído por jovens entre 15 e 26 anos, um público consumidor, ativo socialmente e
+              bastante prestativo nas redes sociais.<b></p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-app">Drop - 01</li>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Principais plataformas
+            </p>
+            <ul>
+              <li><i class="bi-spotify"></i> <a
+                  href="https://open.spotify.com/artist/0BncUYiVAqLsv0P9ENiYVi?autoplay=true">Ouvir em Spotify.</a></li>
+              <li><i class="bi-youtube"></i><a href="https://www.youtube.com/channel/UCV5zyzG6P02zEWm4dtgd-Nw">Acompanha
+                  nossos lançamentos de clipes no YouTube.</a></li>
+              <li><i class="bi-apple"></i><a href="https://music.apple.com/br/artist/btk10banca/1486244068">Não se
+                  esqueça do Apple-Music.</a></li>
             </ul>
           </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/drop010101.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Drop - 01</h4>
-              <p>Disponível no estoque</p>
-              <a href="assets/img/drop010101.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Disponível no estoque"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-cart-add"></i></a>
-            </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h2>Cultura Musical</h2>
+            <p id="graph-btk">
+              Musicalmente o selo BTK 10Banca apresenta influências do rap,hip hop e trap, Sendo comercial levando
+              originalidade e tendo aceitação na grande massa. No show com o repertório bastante energético com trap
+              ,boom bap e e suas linhas bastante reflexivas chamam o público para cima fazendo uma apresentação bastante
+              empolgante, energética e única na vida de cada um. Atualmente o selo BTK10Banca trabalha na criação e
+              desenvolvimento de projetos que compartilhem do seu conceito de união e de seus valores de solidariedade,
+              amor, paz, respeito e muita força de vontade.
+            </p>
+            <a href="https://www.instagram.com/btk10banca/" class="btn-learn-more">Saiba mais</a>
           </div>
-<!-- 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/drop01.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Drop - 01</h4>
-              <p>Em breve no estoque</p>
-              <a href="assets/img/drop01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Em breve no estoque"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-cart-add"></i></a>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/drop0101.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Drop - 01</h4>
-              <p>Em breve no estoque</p>
-              <a href="assets/img/drop0101.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Em breve no estoque"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-cart-add"></i></a>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Promoção de produto</h2>
-          <p>A drop 01 na promoção, verifique as credencias e aproveite e faça sua compra</p>
-        </div>
-
-        <div class="row">
-<!-- 
-          <div class="col-lg-4 col-md-6">
-            <div class="box">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div> -->
-
-          <center><div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="box recommended">
-              <span class="recommended-badge">Promoção</span>
-              <h3>Drop 01</h3>
-              <h4><sup>R$</sup>70<span> </span></h4>
-              <ul>
-                <li><i class="ri-t-shirt-air-fill"></i> Cor preta</li>
-                <li>Emblema da BTK10BANCA</li>
-                <li>Poucas peças</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="portfolio-details.html" class="btn-buy">Compra</a>
-              </div>
-            </div>
-          </div><center>
-
-          <!-- <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div> -->
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
+    </section><!-- End About Us Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -540,7 +577,7 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-<!-- 
+            <!-- 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -588,7 +625,8 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
